@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+header {
+    background-color: white;
+    color: black;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;  
+    padding-top: 20px;
+
+}
+
+.logo {
+    font-size: medium;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+.navi {
+    padding: 10px 10px;
+    font-size:medium;
+    color: grey;
+
+    
+}
+
+.lista {
+    flex-wrap: wrap;
+    width: 250px;
+    
+}
+
+ .cosa {
+    font-size:large;
+    margin-right: 10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    padding: 2px 4px;
+    border-radius: 20px;
+    border-style: solid 2px;
+    padding: 2px 4px;
+
+}
+
+
+.licero {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    border-style: solid 2px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    
+   
+}
+
+.liuno {
+    background-color: orange;
+    color:white;
+
+    
+}
+
+.lidos {
+    background-color: black;
+    color: white;
+}
+
+.litres {
+    background-color: yellow;
+    color: black;
+
+
+}
+
+.licuatro {
+    background-color: grey;
+    color: black;
+
+}
+
+.licinco {
+    background-color: blueviolet;
+    color: white;
+
+
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    width: 120px;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 10%;
+
+
+}
+
+.hero {
+    margin-bottom: 150px;
+    margin-top: 100px;
+    
+
+
+}
+
+.all {
+    display:flex;
+    justify-content: space-around;
+   
+
+}
+
+.title {
+    width: 250px;
+}
+
+.num {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+span {
+    font-size: medium;
+    display: block;
+    margin-left: 4px;
+    margin-right: 4px;
+
+}
+
+.presentacion {
+    font-size: large;
+}
+
+.hello {
+    font-size: 50px;
+}
+
+
+.yo {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    -webkit-filter: grayscale(1);
+    filter: gray; 
+    filter: grayscale(1);
+}
+
+.present {
+   width: 350px;
+   text-align: center;
+}
+
+.imagen1 {
+    width: 250px;
+    
+}
+
+.asterix{
+    font-size: 50px;
+}
+
+
+.lindo {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.hire {
+    text-align: center;
+}
+
+.im3 {
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+
+.titulo {
+    text-align: center;
+
+}
+
+table {
+    width: 1400px;
+}
+
+
+.last {
+    text-align: left;
+    justify-content: left;
+}
+
+.box {
+    background-color: gainsboro;
+    border-radius: 45%;
+    text-align: center;
+    align-items: center;
+    padding-left:35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.css {
+    filter: grayscale();
+    width: 50px;
+}
+
+.html {
+    filter: grayscale();
+    width: 70px;
+}
+
+.javas {
+    filter: grayscale();
+
+}
+
+.react {
+    filter: grayscale();
+    width: 70px;
+}
+
+
+.gris {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.ftx {
+    display: flex;
+    text-align: center;
+    margin: 80px;
+}
+
+.ft {
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.fotito {
+    width: 300px;
+    height: 300px;
+}
+
+.features {
+
+}
+
+.advantage {
+
+}
+
+.experience {
+
+}
+
+.works {
+
+}
+
+.end {
+    background-color: black;
+    height: 300px;
+    color: white;
+    align-items: center;
+}
+
+.fin {
+    font-size: 300%;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bot {
+    
+}

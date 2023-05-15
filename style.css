@@ -4,22 +4,41 @@
 }
 
 section {
-    margin-top: 100px;
-    margin-bottom: 150px;
+    padding: 3em 4em;
+}
+
+
+.all {
+    display:flex;
+    justify-content: space-around;
+   
+
 }
 
 header {
-    background-color: white;
-    color: black;
-    display:flex;
-    justify-content:space-around;
-    align-items: center;  
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1em;
 
 }
 
-.logo {
+.miLogo {
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-weight: 700;
+}
+
+
+.logoDiv {
     font-size: medium;
+    display: flex;
+    
+}
+
+.logoForma {
+   font-size: 2em;
 }
 
 ul {
@@ -33,13 +52,35 @@ ul {
     padding: 10px 10px;
     font-size:medium;
     color: grey;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
     
+}
+
+.flechaArriba {
+    padding-left: 0.5em;
+}
+
+.botonEstilo1 {
+    background-color: black;
+    width: 8em;
+    border-radius: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.primerParte {
+    width: 15em;
 }
 
 .lista {
     flex-wrap: wrap;
     width: 250px;
+    
+
+   
     
 }
 
@@ -105,32 +146,23 @@ ul {
 button {
     background-color: black;
     color: white;
-    width: 120px;
+    width: 140px;
     display: flex;
     padding-left: 10px;
-    border-radius: 10%;
+    border-radius: 20px;
+    border-style: none;
 
 
 }
 
-.hero {
-    margin-bottom: 150px;
-    margin-top: 100px;
+.material-symbols-outlined .flechi {
+    align-items: center;
+    float: inherit;
     
-
-
 }
 
-.all {
-    display:flex;
-    justify-content: space-around;
-   
 
-}
 
-.title {
-    width: 250px;
-}
 
 .num {
     display: flex;
@@ -139,7 +171,7 @@ button {
     
 }
 
-span {
+.meses {
     font-size: medium;
     display: block;
     margin-left: 4px;
@@ -157,9 +189,9 @@ span {
 
 
 .yo {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    border-radius: 100%;
+    width: 20em;
+    height: 20em;
     -webkit-filter: grayscale(1);
     filter: gray; 
     filter: grayscale(1);
@@ -175,16 +207,25 @@ span {
     
 }
 
+.redesSociales {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5em;
+}
+
+
+
 .asterix{
     font-size: 50px;
 }
 
 
-.lindo {
+.botonesColores {
     display:flex;
     justify-content: space-between;
     align-items: center;
-
+    padding-left: 2em;
+    
 }
 
 
@@ -203,10 +244,6 @@ span {
 .titulo {
     text-align: center;
 
-}
-
-table {
-    width: 1400px;
 }
 
 
@@ -258,39 +295,20 @@ table {
 .ftx {
     display: flex;
     text-align: center;
-    margin: 80px;
+   
 }
 
-.ft {
-    margin-left: 10px;
-    margin-right: 10px;
-    justify-content: space-between;
-}
 
 .fotito {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 
-.features {
 
-}
-
-.advantage {
-
-}
-
-.experience {
-
-}
-
-.works {
-
-}
 
 .end {
     background-color: black;
-    height: 300px;
+    height: 400px;
     color: white;
     align-items: center;
 }
@@ -298,9 +316,13 @@ table {
 .fin {
     font-size: 300%;
     font-family:'Times New Roman', Times, serif;
-    align-items: center;
-    text-align: left;
-    padding-left: 20px;
+   padding-left: 3cm;
+   padding-top: 3em;
+}
+
+.despedida {
+    float: right;
+    margin-right: 3em;
 }
 
 .foot {
@@ -309,6 +331,51 @@ table {
 
 }
 
-.bot {
+
+
+table {
+    width: 80em;
+}
+
+.generalProyectos {
+    display: flex;
+}
+
+.imagen9 {
+    width: 25em;
+    height: 15em;
     
+    margin-top: 0.5em;
+}
+
+.imagen8 {
+    width: 25em;
+    height: 25em;
+    margin-top: 0.5em;
+
+}
+
+.botonLoad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    
+}
+
+.loadMore {
+    background-color: white;
+    border-style: none;
+    color: black;
+}
+
+.iconEnd {
+    display: flex;
+    
+    
+}
+
+.logoEnd {
+    font-size: medium;
+    display: flex;
 }

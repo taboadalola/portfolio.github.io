@@ -5,6 +5,8 @@
 
 section {
     padding: 3em 4em;
+
+    
 }
 
 
@@ -19,12 +21,21 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 1em;
+    padding: 2em 4em 1em 4em;
 
 }
 
+a{
+    text-decoration:none;
+}
+
+a:hover {
+    color:yellow;
+    background-color: black;
+}
+
 .miLogo {
-    font-family: 'Abril Fatface', cursive;
+font-family: 'Abril Fatface', cursive;
 font-family: 'Raleway', sans-serif;
 font-family: 'Varela Round', sans-serif;
 font-weight: 700;
@@ -55,6 +66,7 @@ ul {
     align-items: center;
     text-align: center;
     justify-content: center;
+    text-decoration: none;
 
     
 }
@@ -69,30 +81,114 @@ ul {
     border-radius: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
+    
+}
+
+.botonEstilo1:hover {
+    color: yellow;
 }
 
 .primerParte {
     width: 15em;
 }
 
-.lista {
-    flex-wrap: wrap;
-    width: 250px;
+.num {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
     
-
-   
     
 }
 
+.meses {
+    font-size: medium;
+    display: block;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-weight: lighter;
+}
+
+.presentacion {
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+.hello {
+    font-size: 3.7em;
+    padding-bottom: 1em;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.yo {
+    border-radius: 100%;
+    width: 20em;
+    height: 25em;
+    -webkit-filter: grayscale(1);
+    filter: gray; 
+    filter: grayscale(1);
+}
+
+.present {
+    width: 20em;
+   text-align: center;
+}
+
+.imagen1 {
+    width: 15em;
+    
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+}
+
+.redondo {
+    border: solid gainsboro 1px;
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    align-items: center;
+
+}
+
+
+
+.asterix{
+    font-size: 3.7em;
+}
+
+
+.lista {
+    flex-wrap: wrap;
+    
+}
+
+.list {
+    width: 20em;
+    padding-left: 2em;
+}
+
+.botonesColores {
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+
  .cosa {
-    font-size:large;
-    margin-right: 10px;
-    margin-left:10px;
-    margin-bottom: 10px;
-    padding: 2px 4px;
-    border-radius: 20px;
-    border-style: solid 2px;
-    padding: 2px 4px;
+    font-size:1em;
+    margin-right: 1em;
+    margin-left:1em;
+    margin-bottom: 1em;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    
 
 }
 
@@ -100,11 +196,10 @@ ul {
 .licero {
     background-color: black;
     color: white;
-    font-size: 25px;
-    border-radius: 50%;
-    border-style: solid 2px;
-    width: 30px;
-    height: 30px;
+    font-size: 2em;
+    border-radius: 100%;
+    width: 1.5em;
+    height: 1.5em;
     text-align: center;
     
    
@@ -163,87 +258,44 @@ button {
 
 
 
-
-.num {
-    display: flex;
-    justify-content: space-between;
-    
-    
+.contratoP {
+    font-size: 1em;
+    color: gainsboro;
 }
 
-.meses {
-    font-size: medium;
-    display: block;
-    margin-left: 4px;
-    margin-right: 4px;
-
-}
-
-.presentacion {
-    font-size: large;
-}
-
-.hello {
-    font-size: 50px;
-}
-
-
-.yo {
-    border-radius: 100%;
-    width: 20em;
-    height: 20em;
-    -webkit-filter: grayscale(1);
-    filter: gray; 
-    filter: grayscale(1);
-}
-
-.present {
-   width: 350px;
-   text-align: center;
-}
-
-.imagen1 {
-    width: 250px;
-    
-}
-
-.redesSociales {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5em;
-}
-
-
-
-.asterix{
-    font-size: 50px;
-}
-
-
-.botonesColores {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 2em;
-    
+.infoMia {
+font-size: 1.5em;
+font-family: 'Playfair Display', serif;
 }
 
 
 .hire {
     text-align: center;
+   width: 20em;
+    
 }
 
 .im3 {
-    width: 200px;
-    height: 200px;
+    width: 10em;
+    height: 10em;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40% ;
+    border-bottom-right-radius: 40%;
     
 
+}
+
+.imagen3{
+    width: 20em;
 }
 
 
 .titulo {
     text-align: center;
+    
 
+font-family: 'Playfair Display', serif;
 }
 
 
@@ -254,36 +306,26 @@ button {
 
 .box {
     background-color: gainsboro;
-    border-radius: 45%;
+    border-radius: 7em;
     text-align: center;
     align-items: center;
-    padding-left:35px;
-    padding-right: 35px;
-    padding-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left:3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .css {
     filter: grayscale();
-    width: 50px;
+    
 }
 
-.html {
+.css3 {
+    width: 3em;
+    height: 4em;
     filter: grayscale();
-    width: 70px;
 }
-
-.javas {
-    filter: grayscale();
-
-}
-
-.react {
-    filter: grayscale();
-    width: 70px;
-}
-
 
 .gris {
     display: flex;
@@ -306,19 +348,7 @@ button {
 
 
 
-.end {
-    background-color: black;
-    height: 400px;
-    color: white;
-    align-items: center;
-}
 
-.fin {
-    font-size: 300%;
-    font-family:'Times New Roman', Times, serif;
-   padding-left: 3cm;
-   padding-top: 3em;
-}
 
 .despedida {
     float: right;
@@ -334,7 +364,33 @@ button {
 
 
 table {
-    width: 80em;
+    width: 60em;
+    font-family: 'Playfair Display', serif;
+    font-size:  1.3em;
+    border-collapse: none;
+    align-items: center;
+    vertical-align: middle;
+}
+
+ .last{
+
+ text-align: right;
+
+}
+table td {
+    border-bottom: gainsboro solid 1px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+   
+}
+
+.nuevaFuente {
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-size: small;
+font-weight: lighter;
+
 }
 
 .generalProyectos {
@@ -369,8 +425,87 @@ table {
     color: black;
 }
 
+
+.testimonioSofi {
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.textoTest {
+   
+}
+
+.flechaDer {
+    padding-right: 70em;
+}
+
+.soymate {
+    color: gainsboro;
+}
+
+.testimony {
+    padding-bottom: 2em;
+}
+
+.copyright {
+    text-align: right;
+}
+
+.end {
+    background-color: black;
+    height: 35em;
+    color: white;
+}
+
+.fin {
+    font-size: 300%;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+
+.imagenFondo {
+    display: flex;
+    
+}
+
+
+.mano1 {
+    width: 20em;
+    height: 20em;
+    border-radius: 100%;
+    margin-left: 25em;
+    margin-top: 2em;
+   
+    
+}
+
+.botonBlanco {
+    background-color: white;
+    color: black;
+    border-radius: 2em;
+    padding: 1em 2em;
+    width: 10em;
+    
+}
+
+.botonBlanco:hover {
+color: yellow;
+
+}
+
+
+
+
 .iconEnd {
     display: flex;
+    vertical-align: middle;
     
     
 }
@@ -379,3 +514,27 @@ table {
     font-size: medium;
     display: flex;
 }
+
+.iconofinal {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    color: black;
+    
+}
+
+.iconofinal:hover {
+    color: yellow;
+    
+
+}
+
+.copyend {
+    margin-top: 0.5em;
+}
+
+.educacionUno {
+    margin-top: 3em;
+    
+}
+
